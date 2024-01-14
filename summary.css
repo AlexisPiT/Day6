@@ -1,0 +1,144 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.card_summary{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 600px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #9599ac;
+
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: hsla(256, 72%, 46%, 1);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.summary_visual{
+    max-width: 300px;
+    background: radial-gradient( at center top,    
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+    );
+    color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    
+}
+.summary_info{
+    max-width: 300px;
+    padding: 20px;
+}
+p{
+    text-align: center;
+    margin: 15px 15px;
+    padding: 10px;
+}
+.title{
+    font-size: 1.5rem;
+    display: block;
+    padding: 15px;
+}
+.circle_text{
+    font-size: 4rem;
+    padding-bottom: 10px;
+}
+h3{
+    text-align: left;
+}
+.info1{
+    background-color: #fce4e2;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ee998f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info2{
+    background-color: #fff5df;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ecc265;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info3{
+    background-color: #F2FBFA;
+    padding: 10px;
+    border-radius: 10px;
+    color: #8de9de;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info4{
+    background-color: #F3F3FD;
+    padding: 10px;
+    border-radius: 10px;
+    color: #8181e7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info_right{
+    color: black;
+}
+.info_left{
+    font-weight: bold;
+}
+.info{
+    margin: 20px 0;
+}
+i{
+    padding-right: 5px;
+}
+.continue{
+    background-color: #303B59;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+    width: 100%;
+    color: white;
+}
+
+@media only screen
+and (min-width: 320px)
+and (max-width: 600px)
+{
+    
+    body{
+        margin: 0;
+    }
+    .container{
+            height: auto;
+            max-width: 375px;
+    }
+    
+    .card_summary{
+        display: flex;
+        flex-direction: column;
+        box-shadow: none;
+        max-width: 375px;
+    }
+
+    .summary_visual{
+        min-width: 100%;
+        margin: 0;
+    }
+    .summary_info{
+        min-width: 100%;
+    }
