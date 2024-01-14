@@ -138,6 +138,7 @@ and (max-width: 600px)
     .summary_visual{
         min-width: 100%;
         margin: 0;
+        padding: 20px;
     }
     .summary_info{
         min-width: 100%;
